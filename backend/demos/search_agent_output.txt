@@ -1,0 +1,260 @@
+[
+  {
+    "name": "闲鱼",
+    "type": "头部直接竞品",
+    "description": "阿里系二手交易平台，二次元手办、潮玩、谷子等 C2C 交易活跃。",
+    "developer_background": "阿里巴巴集团旗下闲置交易平台，大厂背景"
+  },
+  {
+    "name": "Mercari",
+    "type": "头部直接竞品",
+    "description": "日本头部 C2C 二手交易平台，动漫手办、周边、模型等品类交易量大。",
+    "developer_background": "Mercari, Inc.，日本上市互联网公司"
+  },
+  {
+    "name": "eBay",
+    "type": "头部直接竞品",
+    "description": "全球化电商与拍卖平台，覆盖二手/全新动漫手办、收藏品跨境交易。",
+    "developer_background": "eBay Inc.，美国上市电商公司"
+  },
+  {
+    "name": "Mandarake",
+    "type": "头部直接竞品",
+    "description": "日本知名二手动漫、漫画、手办与收藏品连锁及线上商城。",
+    "developer_background": "Mandarake Inc.，日本二次元中古商品零售企业"
+  },
+  {
+    "name": "Surugaya",
+    "type": "头部直接竞品",
+    "description": "日本大型中古商品平台，提供动漫手办、游戏、CD、周边等买卖服务。",
+    "developer_background": "A-Too Inc. 运营，日本中古娱乐商品零售企业"
+  },
+  {
+    "name": "AmiAmi Pre-owned",
+    "type": "头部直接竞品",
+    "description": "AmiAmi 的二手手办专区，面向全球用户销售评级中古手办。",
+    "developer_background": "Oh-ami Inc. 运营，日本知名手办及模型电商"
+  },
+  {
+    "name": "Yahoo! Auctions Japan",
+    "type": "头部直接竞品",
+    "description": "日本大型拍卖平台，动漫手办、模型、周边等收藏品拍卖活跃。",
+    "developer_background": "LINE Yahoo Japan 运营，日本互联网公司"
+  },
+  {
+    "name": "淘宝",
+    "type": "头部直接竞品",
+    "description": "综合电商平台，存在大量手办现货、预订、二手转卖及模玩店铺。",
+    "developer_background": "阿里巴巴集团旗下综合电商平台，大厂背景"
+  },
+  {
+    "name": "千岛",
+    "type": "追赶型黑马竞品",
+    "description": "面向潮玩、卡牌、谷子、模型等兴趣收藏品的交易与社区平台。",
+    "developer_background": "公开资料显示由杭州热岛科技有限公司运营，创业公司背景"
+  },
+  {
+    "name": "Hpoi",
+    "type": "追赶型黑马竞品",
+    "description": "手办模型资料库与玩家社区，覆盖手办信息、评测、晒图和交易相关需求。",
+    "developer_background": "公开资料显示为国内手办模型垂直社区/资料库团队运营"
+  },
+  {
+    "name": "得物",
+    "type": "追赶型黑马竞品",
+    "description": "以鉴别和潮流交易起家的平台，已覆盖潮玩、手办、模型等交易品类。",
+    "developer_background": "上海识装信息科技有限公司运营，消费互联网创业公司背景"
+  },
+  {
+    "name": "玩物得志",
+    "type": "追赶型黑马竞品",
+    "description": "兴趣收藏品电商平台，覆盖文玩、潮玩、收藏类商品交易。",
+    "developer_background": "杭州玩物得志科技有限公司运营，创业公司背景"
+  },
+  {
+    "name": "7788收藏",
+    "type": "追赶型黑马竞品",
+    "description": "老牌收藏品交易平台，覆盖票证、书刊、玩具模型等多类收藏品。",
+    "developer_background": "公开资料显示由福州九九七七八八网络技术有限公司运营"
+  },
+  {
+    "name": "Carousell",
+    "type": "追赶型黑马竞品",
+    "description": "东南亚及中国香港等市场活跃的 C2C 二手交易平台，覆盖玩具、模型、动漫收藏。",
+    "developer_background": "Carousell Group，新加坡互联网公司"
+  },
+  {
+    "name": "Whatnot",
+    "type": "追赶型黑马竞品",
+    "description": "直播拍卖型收藏品交易平台，覆盖玩具、卡牌、漫画、手办等品类。",
+    "developer_background": "Whatnot Inc.，美国创业公司"
+  },
+  {
+    "name": "StockX",
+    "type": "追赶型黑马竞品",
+    "description": "标准化潮流商品交易平台，覆盖球鞋、潮玩、收藏品等品类。",
+    "developer_background": "StockX LLC，美国潮流交易平台公司"
+  },
+  {
+    "name": "Buyee",
+    "type": "追赶型黑马竞品",
+    "description": "日本跨境代购/代拍平台，可代拍 Yahoo Auctions、Mercari 等日本手办来源。",
+    "developer_background": "tenso, inc. 运营，日本跨境电商服务公司"
+  },
+  {
+    "name": "ZenMarket",
+    "type": "追赶型黑马竞品",
+    "description": "日本商品跨境代购平台，支持用户购买日本手办、模型、动漫周边。",
+    "developer_background": "ZenGroup Inc. 运营，日本跨境电商服务公司"
+  },
+  {
+    "name": "FROM JAPAN",
+    "type": "追赶型黑马竞品",
+    "description": "日本代拍代购平台，面向海外用户提供日本拍卖和电商商品采购服务。",
+    "developer_background": "FROM JAPAN Co., Ltd.，日本跨境代购服务商"
+  },
+  {
+    "name": "Solaris Japan",
+    "type": "追赶型黑马竞品",
+    "description": "面向海外用户销售全新及二手日本动漫手办、游戏、周边的电商平台。",
+    "developer_background": "Solaris Japan，日本动漫商品电商团队"
+  },
+  {
+    "name": "MyFigureCollection",
+    "type": "追赶型黑马竞品",
+    "description": "海外手办资料库与玩家社区，用户可管理收藏并发布交易信息。",
+    "developer_background": "海外社区型网站，公开资料未显示大厂背景"
+  },
+  {
+    "name": "Bilibili会员购",
+    "type": "间接/跨界竞品",
+    "description": "B站官方电商入口，销售手办、模型、演出票务、二次元周边等新品和预售商品。",
+    "developer_background": "哔哩哔哩旗下电商业务，上市互联网公司背景"
+  },
+  {
+    "name": "Good Smile Online Shop",
+    "type": "间接/跨界竞品",
+    "description": "Good Smile Company 官方线上商店，销售粘土人、比例手办等新品及预售。",
+    "developer_background": "Good Smile Company，日本知名手办制造商"
+  },
+  {
+    "name": "POP MART 泡泡玛特",
+    "type": "间接/跨界竞品",
+    "description": "潮玩品牌及零售平台，盲盒和潮流玩具交易文化对手办交易用户有交叉影响。",
+    "developer_background": "泡泡玛特国际集团有限公司，中国港股上市潮玩公司"
+  },
+  {
+    "name": "52TOYS",
+    "type": "间接/跨界竞品",
+    "description": "收藏玩具品牌及零售平台，覆盖原创潮玩、变形机甲、IP 玩具等。",
+    "developer_background": "北京乐自天成文化发展股份有限公司，潮玩品牌公司"
+  },
+  {
+    "name": "HOT TOYS",
+    "type": "间接/跨界竞品",
+    "description": "高端可动人偶品牌，产品二级市场价格波动和收藏属性明显。",
+    "developer_background": "Hot Toys Limited，中国香港高端收藏人偶公司"
+  },
+  {
+    "name": "京东",
+    "type": "间接/跨界竞品",
+    "description": "综合电商平台，提供动漫手办、潮玩、模型新品销售及部分第三方店铺交易。",
+    "developer_background": "京东集团旗下综合电商平台，大厂背景"
+  },
+  {
+    "name": "拼多多",
+    "type": "间接/跨界竞品",
+    "description": "综合电商平台，低价手办、潮玩、模型及周边商品供给丰富。",
+    "developer_background": "拼多多/拼多多集团旗下电商平台，大厂背景"
+  },
+  {
+    "name": "小红书",
+    "type": "间接/跨界竞品",
+    "description": "内容社区与电商结合平台，存在手办开箱、种草、转单、求购等社区交易线索。",
+    "developer_background": "行吟信息科技（上海）有限公司运营，内容社区平台"
+  },
+  {
+    "name": "抖音电商",
+    "type": "间接/跨界竞品",
+    "description": "短视频与直播电商平台，手办、潮玩、谷子通过直播间和店铺销售。",
+    "developer_background": "字节跳动旗下抖音相关电商业务，大厂背景"
+  },
+  {
+    "name": "快手小店",
+    "type": "间接/跨界竞品",
+    "description": "短视频直播电商平台，覆盖潮玩、模型、动漫周边等直播销售场景。",
+    "developer_background": "快手科技旗下电商业务，上市互联网公司背景"
+  },
+  {
+    "name": "淘宝直播",
+    "type": "间接/跨界竞品",
+    "description": "直播电商场景下的手办、潮玩、模型销售渠道，适合清仓、拍卖、福利秒杀。",
+    "developer_background": "阿里巴巴集团旗下淘宝内容电商业务"
+  },
+  {
+    "name": "微信小程序/微信群交易",
+    "type": "间接/跨界竞品",
+    "description": "大量手办玩家通过社群、小程序店铺、朋友圈进行转单、拼团和二手交易。",
+    "developer_background": "腾讯微信生态承载，具体商家和社群主体分散"
+  },
+  {
+    "name": "QQ频道/QQ群交易",
+    "type": "间接/跨界竞品",
+    "description": "二次元手办、谷子、模型玩家常用的社群交易和拼单渠道。",
+    "developer_background": "腾讯 QQ 社交生态承载，具体交易主体分散"
+  },
+  {
+    "name": "Reddit r/AnimeFigures",
+    "type": "潜在替代品",
+    "description": "海外手办玩家社区，承担信息查询、晒图、价格讨论和交易导流功能。",
+    "developer_background": "Reddit 平台上的用户社区，Reddit Inc. 为美国社交平台公司"
+  },
+  {
+    "name": "Discord 手办/动漫收藏服务器",
+    "type": "潜在替代品",
+    "description": "海外玩家通过 Discord 社群完成手办信息交换、拼单、转让和交易撮合。",
+    "developer_background": "Discord Inc. 提供社交沟通平台，具体服务器由社群运营"
+  },
+  {
+    "name": "Facebook Marketplace",
+    "type": "潜在替代品",
+    "description": "Facebook 的本地交易功能，覆盖玩具、收藏品、动漫手办等二手交易。",
+    "developer_background": "Meta Platforms 旗下社交平台功能，大厂背景"
+  },
+  {
+    "name": "Facebook Groups",
+    "type": "潜在替代品",
+    "description": "海外动漫手办玩家常通过 Facebook 群组进行求购、转让和价格交流。",
+    "developer_background": "Meta Platforms 旗下社交平台承载，具体群组由用户运营"
+  },
+  {
+    "name": "Instagram",
+    "type": "潜在替代品",
+    "description": "部分手办收藏者、店铺和代购通过图片内容、私信和限时动态完成交易导流。",
+    "developer_background": "Meta Platforms 旗下图片社交平台，大厂背景"
+  },
+  {
+    "name": "X",
+    "type": "潜在替代品",
+    "description": "日本及海外手办玩家、店铺、代购使用 X 发布转让、开箱、预售信息和交易线索。",
+    "developer_background": "X Corp. 运营的社交媒体平台"
+  },
+  {
+    "name": "NTWRK",
+    "type": "潜在替代品",
+    "description": "面向潮流、收藏品和限量商品的直播购物平台，可能替代部分新品首发和收藏交易场景。",
+    "developer_background": "NTWRK，美国直播购物平台公司"
+  },
+  {
+    "name": "Collectr",
+    "type": "潜在替代品",
+    "description": "收藏品资产管理应用，主要覆盖卡牌等收藏品，具备价格追踪和组合管理思路。",
+    "developer_background": "Collectr Inc.，海外收藏品管理工具创业公司"
+  },
+  {
+    "name": "WorthPoint",
+    "type": "潜在替代品",
+    "description": "收藏品历史成交价和估值数据库，可替代部分手办交易平台的定价参考能力。",
+    "developer_background": "WorthPoint Corporation，美国收藏品数据服务公司"
+  }
+]

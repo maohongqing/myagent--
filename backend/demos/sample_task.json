@@ -1,0 +1,32 @@
+{
+  "target_product": "飞书",
+  "our_product": "飞书",
+  "market": "企业协同办公",
+  "product_category": "协作办公套件",
+  "geography": "中国",
+  "company_size": "中大型企业",
+  "competitors": [
+    "钉钉"
+  ],
+  "urls": [
+    "https://www.dingtalk.com/"
+  ],
+  "notes": "重点关注定价、核心功能、目标用户、增长渠道和差异化机会。",
+  "competitor_profiles": [
+    {
+      "name": "钉钉",
+      "category": "direct",
+      "website": "https://www.dingtalk.com/",
+      "website_copy": "钉钉是面向企业组织的协同办公与管理平台。",
+      "sales_notes": "销售场景中经常与飞书在 IM、文档、审批、组织管理和生态集成方面对比。",
+      "win_loss_notes": "需要重点核对定价、企业管理能力、生态集成和行业方案。",
+      "tags": [
+        "协同办公",
+        "企业管理",
+        "IM",
+        "审批"
+      ]
+    }
+  ],
+  "enable_screenshots": false
+}

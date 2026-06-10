@@ -1,0 +1,1084 @@
+{
+  "request": {
+    "target_product": "二次元手办交易平台",
+    "raw_description": "我想做一个二次元手办交易平台，目前主要用作决策支持",
+    "lifecycle_stage": null,
+    "analysis_purpose": null,
+    "analysis_goal": null,
+    "clarification_answers": [],
+    "competitors": [],
+    "urls": [],
+    "notes": null,
+    "our_product": null,
+    "market": null,
+    "product_category": null,
+    "geography": null,
+    "company_size": null,
+    "competitor_profiles": [],
+    "enable_screenshots": false,
+    "max_revision_loops": null
+  },
+  "benchmark": {
+    "target_product": "二次元手办交易平台",
+    "raw_description": "我想做一个二次元手办交易平台，目前主要用作决策支持",
+    "lifecycle_stage": "concept",
+    "analysis_purpose": "decision_support",
+    "analysis_goal": "我想做一个二次元手办交易平台，目前主要用作决策支持",
+    "confidence": 0.7000000000000002,
+    "inferred_from": [
+      "raw_description",
+      "structured_fields",
+      "clarification_answers"
+    ],
+    "locked": true
+  },
+  "phase_1_intent": {
+    "product_lifecycle": "concept",
+    "analysis_purpose": "decision_support",
+    "core_problem_to_solve": "评估是否以及如何打造一个二次元手办交易平台，为产品立项、市场进入和差异化定位提供决策依据",
+    "specific_goal": "通过竞品分析明确二次元手办交易平台的市场机会、核心用户需求、主要竞品格局、功能差异化方向与初步商业策略"
+  },
+  "search_agent_prompt_output": "```json\n[\n  {\n    \"name\": \"闲鱼\",\n    \"type\": \"头部直接竞品\",\n    \"description\": \"国内综合二手交易平台，覆盖二次元手办、潮玩、模型、周边等大量 C2C 交易场景。\",\n    \"developer_background\": \"阿里巴巴集团旗下二手交易平台，大厂背景\"\n  },\n  {\n    \"name\": \"Mercari\",\n    \"type\": \"头部直接竞品\",\n    \"description\": \"日本及美国市场活跃的 C2C 二手交易平台，动漫手办、周边、中古商品交易量较高。\",\n    \"developer_background\": \"Mercari, Inc.，日本上市互联网公司\"\n  },\n  {\n    \"name\": \"eBay\",\n    \"type\": \"头部直接竞品\",\n    \"description\": \"全球化综合二手与拍卖交易平台，覆盖手办、模型、动漫收藏品等跨境交易需求。\",\n    \"developer_background\": \"eBay Inc.，美国上市电商平台\"\n  },\n  {\n    \"name\": \"Mandarake\",\n    \"type\": \"头部直接竞品\",\n    \"description\": \"日本知名中古动漫商品交易平台，主营手办、漫画、同人、玩具、模型等二次元收藏品。\",\n    \"developer_background\": \"株式会社まんだらけ，日本上市/公开经营的中古动漫零售企业\"\n  },\n  {\n    \"name\": \"Suruga-ya / 骏河屋\",\n    \"type\": \"头部直接竞品\",\n    \"description\": \"日本大型中古商品电商平台，覆盖手办、游戏、CD、周边、模型等二次元品类。\",\n    \"developer_background\": \"A-too Inc. 运营，日本中古娱乐商品零售企业\"\n  },\n  {\n    \"name\": \"Yahoo! JAPAN Auction / ヤフオク!\",\n    \"type\": \"头部直接竞品\",\n    \"description\": \"日本大型线上拍卖平台，手办、中古模型、限定周边等二次元商品交易活跃。\",\n    \"developer_background\": \"LINE Yahoo Corporation 运营，日本大型互联网公司\"\n  },\n  {\n    \"name\": \"AmiAmi Pre-owned\",\n    \"type\": \"头部直接竞品\",\n    \"description\": \"AmiAmi 旗下中古手办与动漫商品销售频道，提供成色分级和库存化交易。\",\n    \"developer_background\": \"大網株式会社，日本动漫商品零售商\"\n  },\n  {\n    \"name\": \"淘宝\",\n    \"type\": \"头部直接竞品\",\n    \"description\": \"国内综合电商平台，存在大量手办现货、预售、代购、中古及个人卖家交易。\",\n    \"developer_background\": \"阿里巴巴集团旗下综合电商平台，大厂背景\"\n  },\n  {\n    \"name\": \"千岛\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"面向兴趣收藏人群的社区与交易平台，覆盖潮玩、卡牌、谷子、手办等收藏品交易。\",\n    \"developer_background\": \"上海必有回响智能科技有限公司等相关主体公开关联，创业公司背景\"\n  },\n  {\n    \"name\": \"得物\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"以鉴别和交易为核心的潮流电商平台，品类从球鞋扩展至潮玩、手办、模型等收藏消费品。\",\n    \"developer_background\": \"上海识装信息科技有限公司运营，成长型互联网平台\"\n  },\n  {\n    \"name\": \"Hpoi\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"二次元手办数据库与玩家社区，提供手办资料、评分、收藏管理和交易相关信息入口。\",\n    \"developer_background\": \"公开资料可见其为国内手办垂直社区产品；具体运营主体公开信息需进一步核验\"\n  },\n  {\n    \"name\": \"模玩熊\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"面向模玩、手办、潮玩用户的垂直内容与交易类产品，聚焦模型玩具玩家需求。\",\n    \"developer_background\": \"公开资料显示为国内模玩垂直产品；具体开发商背景需进一步核验\"\n  },\n  {\n    \"name\": \"Carousell\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"东南亚及港台市场活跃的 C2C 二手交易平台，覆盖玩具、动漫周边、收藏品等品类。\",\n    \"developer_background\": \"Carousell Group，新加坡互联网创业公司\"\n  },\n  {\n    \"name\": \"Whatnot\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"以直播拍卖为核心的收藏品交易平台，覆盖手办、玩具、卡牌、漫画等垂直收藏品。\",\n    \"developer_background\": \"Whatnot Inc.，美国创业公司，公开资料显示曾获多轮风险投资\"\n  },\n  {\n    \"name\": \"StockX\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"以标准化竞价和真伪鉴定为特色的潮流交易平台，覆盖部分潮玩、收藏玩具和流行文化商品。\",\n    \"developer_background\": \"StockX LLC，美国潮流交易平台创业公司\"\n  },\n  {\n    \"name\": \"Buyee\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"日本跨境代拍与代购服务平台，帮助海外用户购买雅虎拍卖、Mercari、乐天等平台上的手办与中古商品。\",\n    \"developer_background\": \"tenso, inc. 运营，日本 BEENOS 集团相关公司\"\n  },\n  {\n    \"name\": \"ZenMarket\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"日本跨境代购与代拍平台，服务海外用户购买日本二次元手办、模型和周边。\",\n    \"developer_background\": \"ZenMarket Inc.，日本跨境电商服务公司\"\n  },\n  {\n    \"name\": \"FromJapan\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"日本商品跨境代购与拍卖代理平台，覆盖中古手办、动漫周边、模型等商品。\",\n    \"developer_background\": \"FROM JAPAN LIMITED，日本跨境电商服务公司\"\n  },\n  {\n    \"name\": \"Neokyo\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"面向海外用户的日本代购平台，可聚合购买日本电商和二手平台上的动漫收藏品。\",\n    \"developer_background\": \"Neokyo，法国/欧洲团队背景，具体公司信息需进一步核验\"\n  },\n  {\n    \"name\": \"Nin-Nin Game\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"日本动漫手办、游戏和周边跨境零售平台，提供新品预订及部分现货销售。\",\n    \"developer_background\": \"Nin-Nin Game，日本动漫商品跨境零售团队，具体公司背景需进一步核验\"\n  },\n  {\n    \"name\": \"Solaris Japan\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"日本手办与动漫商品跨境电商，提供新品和中古手办销售。\",\n    \"developer_background\": \"Solaris Japan，日本动漫商品零售团队，具体公司背景需进一步核验\"\n  },\n  {\n    \"name\": \"Tokyo Otaku Mode Shop\",\n    \"type\": \"追赶型黑马\",\n    \"description\": \"面向海外动漫用户的正版手办、周边和二次元商品电商平台。\",\n    \"developer_background\": \"Tokyo Otaku Mode Inc.，日本/美国市场运营的动漫电商公司\"\n  },\n  {\n    \"name\": \"哔哩哔哩会员购\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"B站官方二次元商品电商频道，提供手办、模型、演出票务、谷子及 IP 周边销售。\",\n    \"developer_background\": \"哔哩哔哩旗下业务，大厂/上市互联网公司背景\"\n  },\n  {\n    \"name\": \"Good Smile Online Shop\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"Good Smile Company 官方商城，销售黏土人、比例手办、POP UP PARADE 等新品及限定商品。\",\n    \"developer_background\": \"Good Smile Company，日本知名手办厂商\"\n  },\n  {\n    \"name\": \"GSC 上海官方商城 / 良笑塑美相关渠道\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"Good Smile 在中国市场相关官方销售渠道，面向国内用户销售正版手办及周边。\",\n    \"developer_background\": \"良笑塑美为 Good Smile Company 在中国市场相关主体，厂商官方背景\"\n  },\n  {\n    \"name\": \"天猫\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"品牌旗舰店和授权店集中的综合电商平台，承接大量正版手办预售、现货及 IP 周边销售。\",\n    \"developer_background\": \"阿里巴巴集团旗下 B2C 综合电商平台，大厂背景\"\n  },\n  {\n    \"name\": \"京东\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"综合零售电商平台，覆盖手办、潮玩、模型、动漫周边及自营/第三方店铺销售。\",\n    \"developer_background\": \"京东集团旗下综合电商平台，大厂/上市公司背景\"\n  },\n  {\n    \"name\": \"拼多多\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"价格导向型综合电商平台，存在大量手办、模型、潮玩及动漫周边商家。\",\n    \"developer_background\": \"拼多多/PDD Holdings 旗下综合电商平台，大厂/上市公司背景\"\n  },\n  {\n    \"name\": \"抖音电商\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"以短视频和直播带货驱动的内容电商平台，手办、潮玩、谷子等二次元商品销售活跃。\",\n    \"developer_background\": \"字节跳动旗下电商业务，大厂背景\"\n  },\n  {\n    \"name\": \"快手小店\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"快手生态内的直播与短视频电商工具，部分主播和商家销售手办、潮玩、模型及周边。\",\n    \"developer_background\": \"快手科技旗下电商业务，大厂/上市公司背景\"\n  },\n  {\n    \"name\": \"小红书\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"生活方式内容社区，用户通过种草、晒单、笔记和店铺入口影响手办与二次元周边消费决策。\",\n    \"developer_background\": \"行吟信息科技相关主体运营，内容社区平台\"\n  },\n  {\n    \"name\": \"POP MART 泡泡玛特\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"潮玩品牌与零售平台，虽然核心不是二次元中古手办，但争夺收藏玩具预算和用户心智。\",\n    \"developer_background\": \"泡泡玛特国际集团有限公司，上市潮玩公司\"\n  },\n  {\n    \"name\": \"52TOYS\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"收藏玩具品牌与零售体系，覆盖机甲、盲盒、IP 衍生玩具等收藏型消费品。\",\n    \"developer_background\": \"北京乐自天成文化发展股份有限公司，潮玩/收藏玩具公司\"\n  },\n  {\n    \"name\": \"HobbyLink Japan\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"日本模型、手办和动漫商品跨境零售网站，提供预订和现货购买服务。\",\n    \"developer_background\": \"HobbyLink Japan，日本模型与动漫商品零售商\"\n  },\n  {\n    \"name\": \"Hobby Search / 1999.co.jp\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"日本手办、模型、玩具和动漫商品电商网站，提供新品预订及商品资料。\",\n    \"developer_background\": \"Hobby Search，日本模型玩具电商，具体运营主体需进一步核验\"\n  },\n  {\n    \"name\": \"animate Online Shop\",\n    \"type\": \"间接/跨界竞品\",\n    \"description\": \"日本 animate 官方线上商城，销售动漫周边、角色商品、书籍、CD、手办等。\",\n    \"developer_background\": \"Animate Ltd.，日本大型动漫零售连锁企业\"\n  },\n  {\n    \"name\": \"MyFigureCollection\",\n    \"type\": \"潜在替代品\",\n    \"description\": \"全球手办数据库与收藏管理社区，用户可记录收藏、关注发售信息并通过社区形成交易线索。\",\n    \"developer_background\": \"海外社区型网站，具体公司化运营背景公开信息有限\"\n  },\n  {\n    \"name\": \"Reddit r/AnimeFigures\",\n    \"type\": \"潜在替代品\",\n    \"description\": \"海外动漫手办玩家社区，承担晒单、评测、购买建议、避坑和交易信息传播功能。\",\n    \"developer_background\": \"Reddit 平台上的用户社区，Reddit Inc. 为美国上市/互联网公司\"\n  },\n  {\n    \"name\": \"Discord 手办/动漫收藏社群\",\n    \"type\": \"潜在替代品\",\n    \"description\": \"基于即时通讯的垂直玩家社群，可通过群组撮合二手手办交易、拼单和代购信息。\",\n    \"developer_background\": \"Discord Inc.，美国互联网通信平台；具体社群多为用户自组织\"\n  },\n  {\n    \"name\": \"Facebook Marketplace\",\n    \"type\": \"潜在替代品\",\n    \"description\": \"Facebook 内置本地交易市场，海外用户可发布和购买二手手办、玩具、收藏品。\",\n    \"developer_background\": \"Meta Platforms, Inc. 旗下产品，大厂/上市公司背景\"\n  },\n  {\n    \"name\": \"Facebook Groups\",\n    \"type\": \"潜在替代品\",\n    \"description\": \"基于兴趣小组的二手手办交易和收藏交流渠道，常见于海外本地或垂直圈层交易。\",\n    \"developer_background\": \"Meta Platforms, Inc. 旗下社交平台功能，大厂/上市公司背景\"\n  },\n  {\n    \"name\": \"微信社群/微信群交易\",\n    \"type\": \"潜在替代品\",\n    \"description\": \"国内玩家常用的私域交易方式，通过微信群、朋友圈、小程序完成手办转让、拼单和代购。\",\n    \"developer_background\": \"腾讯微信生态，大厂背景；具体交易社群多为用户或商家自组织\"\n  },\n  {\n    \"name\": \"QQ 群交易\",\n    \"type\": \"潜在替代品\",\n    \"description\": \"二次元和模玩用户长期使用的兴趣群交易渠道，可低成本完成同好间转让与拼单。\",\n    \"developer_background\": \"腾讯 QQ 生态，大厂背景；具体群组多为用户自组织\"\n  },\n  {\n    \"name\": \"贴吧\",\n    \"type\": \"潜在替代品\",\n    \"description\": \"百度贴吧内存在手办、模型、动漫 IP 相关吧，承担讨论、晒单、求购、转让等社区功能。\",\n    \"developer_background\": \"百度旗下社区产品，大厂/上市公司背景\"\n  },\n  {\n    \"name\": \"哔哩哔哩\",\n    \"type\": \"潜在替代品\",\n    \"description\": \"二次元内容社区，通过视频评测、开箱、动态、评论区和粉丝关系影响手办消费与交易决策。\",\n    \"developer_background\": \"哔哩哔哩股份有限公司，上市互联网公司\"\n  },\n  {\n    \"name\": \"YouTube\",\n    \"type\": \"潜在替代品\",\n    \"description\": \"海外手办开箱、评测和收藏展示内容平台，可影响用户购买决策并导流至第三方交易渠道。\",\n    \"developer_background\": \"Google/Alphabet 旗下视频平台，大厂背景\"\n  },\n  {\n    \"name\": \"OpenSea\",\n    \"type\": \"潜在替代品\",\n    \"description\": \"NFT 数字收藏品交易平台，虽非实体手办交易，但在 IP 数字收藏和虚拟资产方向可能替代部分收藏需求。\",\n    \"developer_background\": \"OpenSea，美国 NFT 交易平台创业公司\"\n  }\n]\n```",
+  "queries": [
+    "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 竞品 替代品 头部产品 黑马",
+    "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 competitors alternatives market map",
+    "二次元手办交易平台 类似产品 排名 对比 决策支持",
+    "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 融资 增长 用户评价 发布 更新"
+  ],
+  "candidate_sources": [
+    {
+      "id": "raw_8f403b5ed3e8",
+      "url": "https://www.bbc.com/zhongwen/articles/ce8ymnnyz7po/simp",
+      "title": "bbc.com/zhongwen/articles/ce8ymnnyz7po/simp",
+      "content": "闲鱼上有各种各样的作弊机会。 闲鱼是一个类似eBay的二手交易平台，由阿里巴巴经营，蚂蚁集团旗下公司拥有该平台背后公司的大量股份。 赵先生是蚂蚁森林的长期用户，了解游戏的多种玩法，并要求使用化名。",
+      "source_type": "search",
+      "captured_at": "2026-06-02T08:50:27.202829Z",
+      "metadata": {
+        "query": "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 竞品 替代品 头部产品 黑马",
+        "provider": "duckduckgo"
+      }
+    },
+    {
+      "id": "raw_e3a79fd1c566",
+      "url": "https://m.mp.oeeee.com/a/BAAFRD000020220519685303.html",
+      "title": "海外NFT缩水万倍，国内数字藏品平台激增，都在发行什么",
+      "content": "有机构测算，1月初数字藏品全平台日均发行额仅为百万元水平，至4月底，全平台市场日均发行额已突破1000万元水平，国内数字藏品交易平台已超300家。 作为“去NFT化”的本土产物，数字藏品目前市场需求如何？",
+      "source_type": "search",
+      "captured_at": "2026-06-02T08:50:27.202829Z",
+      "metadata": {
+        "query": "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 竞品 替代品 头部产品 黑马",
+        "provider": "duckduckgo"
+      }
+    },
+    {
+      "id": "raw_f7f9bd78f4b8",
+      "url": "https://www.qizansea.com/71456.html",
+      "title": "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞",
+      "content": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+      "source_type": "search",
+      "captured_at": "2026-06-02T08:50:27.202829Z",
+      "metadata": {
+        "query": "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 竞品 替代品 头部产品 黑马",
+        "provider": "duckduckgo"
+      }
+    },
+    {
+      "id": "raw_6fb2d2978075",
+      "url": "https://www.youtube.com/",
+      "title": "youtube.com",
+      "content": "youtube.com",
+      "source_type": "search",
+      "captured_at": "2026-06-02T08:50:27.202829Z",
+      "metadata": {
+        "query": "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 竞品 替代品 头部产品 黑马",
+        "provider": "duckduckgo"
+      }
+    },
+    {
+      "id": "raw_9b72f863a205",
+      "url": "https://binaryranks.com/intro/",
+      "title": "二元期權平台排名-二元期權網站介紹_外匯交易平台比較|外匯經紀商排名",
+      "content": "OTCBTC場外比特幣交易方式是目前的主流兌換法幣方式（支持新台幣、港幣、人民幣、美元購買BTC、ETH、EOS、USDT、QTUM、ZEC、GXS、BCH 等數字幣）。",
+      "source_type": "search",
+      "captured_at": "2026-06-02T08:50:27.202829Z",
+      "metadata": {
+        "query": "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 竞品 替代品 头部产品 黑马",
+        "provider": "duckduckgo"
+      }
+    },
+    {
+      "id": "raw_38beac1dbc52",
+      "url": "https://carrier.hqdzrbvnf.cc/page/2/",
+      "title": "51视频网-第2页-热门黑料爆料资源全聚合，吃瓜看片必备平台",
+      "content": "二次元萌妹 柔柔呱 COS水神芙宁娜 粉嫩白虎被水晶假阳具猛操到高潮喷水！苗条女神HannahHays想做坏事 黑白情趣内衣撩人 极品身材被猛干内射高潮！ 51视频网官方 • 2026 年 05 月 31 日 • 今日推荐, 看片娱乐.",
+      "source_type": "search",
+      "captured_at": "2026-06-02T08:50:27.202829Z",
+      "metadata": {
+        "query": "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 竞品 替代品 头部产品 黑马",
+        "provider": "duckduckgo"
+      }
+    },
+    {
+      "id": "raw_03c8dbe21108",
+      "url": "https://www.youtube.com/",
+      "title": "Главная - YouTube",
+      "content": "Смотрите любимые видео, слушайте любимые песни, загружайте собственные ролики и делитесь ими с друзьями, близкими и целым миром.",
+      "source_type": "search",
+      "captured_at": "2026-06-02T08:50:40.170680Z",
+      "metadata": {
+        "query": "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 competitors alternatives market map",
+        "provider": "duckduckgo"
+      }
+    },
+    {
+      "id": "raw_15cf8f3171aa",
+      "url": "https://www.google.com/",
+      "title": "Google",
+      "content": "Поиск информации в интернете: веб страницы, картинки, видео и многое другое.",
+      "source_type": "search",
+      "captured_at": "2026-06-02T08:50:40.170680Z",
+      "metadata": {
+        "query": "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 competitors alternatives market map",
+        "provider": "duckduckgo"
+      }
+    },
+    {
+      "id": "raw_0732e2e73ccd",
+      "url": "https://blog.tangly1024.com/article/fibonacci",
+      "title": "斐波那契是什么？ 为什么在交易中它的成功率这么高？ | Tangly...",
+      "content": "像这一段行情，如果你使用隧道系统进行交易，就没有什么机会了。 在这种情况下，必须使用其他指标来应对震荡行情。 横盘震荡中会反复打损. 横盘震荡中会反复打损. 在实际执行过程中，除了看隧道指标外，我们还可以参考其他工具，比如趋势线、RSI...",
+      "source_type": "search",
+      "captured_at": "2026-06-02T08:50:40.170680Z",
+      "metadata": {
+        "query": "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 competitors alternatives market map",
+        "provider": "duckduckgo"
+      }
+    },
+    {
+      "id": "raw_2f88d1502c1d",
+      "url": "https://mail.163.com/",
+      "title": "163网易免费邮-你的专业电子邮局",
+      "content": "网易163免费邮箱，你的专业电子邮局，注册用户数超10亿，专业稳定安全。网易邮箱官方App“邮箱大师”帮您高效处理邮件，支持所有邮箱，并可在手机、Windows和Mac上多端协同使用。",
+      "source_type": "search",
+      "captured_at": "2026-06-02T08:50:40.170680Z",
+      "metadata": {
+        "query": "二次元手办交易平台 我想做一个二次元手办交易平台，目前主要用作决策支持 competitors alternatives market map",
+        "provider": "duckduckgo"
+      }
+    }
+  ],
+  "candidate_pool_mode": "rule_fallback_after_llm_error",
+  "candidate_pool_notes": [
+    "大模型候选池生成失败，已回退到规则候选池生成：1 validation error for LLMCandidatePoolOutput\n  Invalid JSON: expected value at line 1 column 1 [type=json_invalid, input_value='### 二次元手办交...卖家信誉体系。 |', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.13/v/json_invalid"
+  ],
+  "candidates": [
+    {
+      "name": "海外NFT缩水万倍",
+      "description": "有机构测算，1月初数字藏品全平台日均发行额仅为百万元水平，至4月底，全平台市场日均发行额已突破1000万元水平，国内数字藏品交易平台已超300家。 作为“去NFT化”的本土产物，数字藏品目前市场需求如何？",
+      "website": null,
+      "competitor_type": "indirect_cross",
+      "source_urls": [
+        "https://m.mp.oeeee.com/a/BAAFRD000020220519685303.html"
+      ],
+      "source_titles": [
+        "海外NFT缩水万倍，国内数字藏品平台激增，都在发行什么"
+      ],
+      "tags": [
+        "duckduckgo",
+        "query_related"
+      ],
+      "rank_factors": {
+        "heat": 0.3,
+        "growth": 0.15,
+        "similarity": 0.234,
+        "risk": 0.1
+      },
+      "risk_factors": {
+        "capital": 0.2,
+        "tech": 0.2,
+        "model": 0.2,
+        "team": 0.2
+      },
+      "score": 0.1815,
+      "selection_reason": "间接/跨界竞品；综合分 0.18，主要由热度因子拉动。"
+    },
+    {
+      "name": "国内数字藏品平台激增",
+      "description": "有机构测算，1月初数字藏品全平台日均发行额仅为百万元水平，至4月底，全平台市场日均发行额已突破1000万元水平，国内数字藏品交易平台已超300家。 作为“去NFT化”的本土产物，数字藏品目前市场需求如何？",
+      "website": null,
+      "competitor_type": "indirect_cross",
+      "source_urls": [
+        "https://m.mp.oeeee.com/a/BAAFRD000020220519685303.html"
+      ],
+      "source_titles": [
+        "海外NFT缩水万倍，国内数字藏品平台激增，都在发行什么"
+      ],
+      "tags": [
+        "duckduckgo",
+        "query_related"
+      ],
+      "rank_factors": {
+        "heat": 0.3,
+        "growth": 0.15,
+        "similarity": 0.234,
+        "risk": 0.1
+      },
+      "risk_factors": {
+        "capital": 0.2,
+        "tech": 0.2,
+        "model": 0.2,
+        "team": 0.2
+      },
+      "score": 0.1815,
+      "selection_reason": "间接/跨界竞品；综合分 0.18，主要由热度因子拉动。"
+    },
+    {
+      "name": "都在发行什么",
+      "description": "有机构测算，1月初数字藏品全平台日均发行额仅为百万元水平，至4月底，全平台市场日均发行额已突破1000万元水平，国内数字藏品交易平台已超300家。 作为“去NFT化”的本土产物，数字藏品目前市场需求如何？",
+      "website": null,
+      "competitor_type": "indirect_cross",
+      "source_urls": [
+        "https://m.mp.oeeee.com/a/BAAFRD000020220519685303.html"
+      ],
+      "source_titles": [
+        "海外NFT缩水万倍，国内数字藏品平台激增，都在发行什么"
+      ],
+      "tags": [
+        "duckduckgo",
+        "query_related"
+      ],
+      "rank_factors": {
+        "heat": 0.3,
+        "growth": 0.15,
+        "similarity": 0.236,
+        "risk": 0.1
+      },
+      "risk_factors": {
+        "capital": 0.2,
+        "tech": 0.2,
+        "model": 0.2,
+        "team": 0.2
+      },
+      "score": 0.1821,
+      "selection_reason": "间接/跨界竞品；综合分 0.18，主要由热度因子拉动。"
+    },
+    {
+      "name": "海外NFT缩水万倍，国内数字藏品平台激增，都在发行什么",
+      "description": "有机构测算，1月初数字藏品全平台日均发行额仅为百万元水平，至4月底，全平台市场日均发行额已突破1000万元水平，国内数字藏品交易平台已超300家。 作为“去NFT化”的本土产物，数字藏品目前市场需求如何？",
+      "website": null,
+      "competitor_type": "indirect_cross",
+      "source_urls": [
+        "https://m.mp.oeeee.com/a/BAAFRD000020220519685303.html"
+      ],
+      "source_titles": [
+        "海外NFT缩水万倍，国内数字藏品平台激增，都在发行什么"
+      ],
+      "tags": [
+        "duckduckgo",
+        "query_related"
+      ],
+      "rank_factors": {
+        "heat": 0.3,
+        "growth": 0.15,
+        "similarity": 0.227,
+        "risk": 0.1
+      },
+      "risk_factors": {
+        "capital": 0.2,
+        "tech": 0.2,
+        "model": 0.2,
+        "team": 0.2
+      },
+      "score": 0.1796,
+      "selection_reason": "间接/跨界竞品；综合分 0.18，主要由热度因子拉动。"
+    },
+    {
+      "name": "ShareASale",
+      "description": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+      "website": null,
+      "competitor_type": "indirect_cross",
+      "source_urls": [
+        "https://www.qizansea.com/71456.html"
+      ],
+      "source_titles": [
+        "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞"
+      ],
+      "tags": [
+        "duckduckgo",
+        "query_related"
+      ],
+      "rank_factors": {
+        "heat": 0.55,
+        "growth": 0.15,
+        "similarity": 0.181,
+        "risk": 0.1
+      },
+      "risk_factors": {
+        "capital": 0.2,
+        "tech": 0.2,
+        "model": 0.2,
+        "team": 0.2
+      },
+      "score": 0.2367,
+      "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。"
+    },
+    {
+      "name": "迁移到Awin",
+      "description": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+      "website": null,
+      "competitor_type": "indirect_cross",
+      "source_urls": [
+        "https://www.qizansea.com/71456.html"
+      ],
+      "source_titles": [
+        "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞"
+      ],
+      "tags": [
+        "duckduckgo",
+        "query_related"
+      ],
+      "rank_factors": {
+        "heat": 0.55,
+        "growth": 0.15,
+        "similarity": 0.181,
+        "risk": 0.1
+      },
+      "risk_factors": {
+        "capital": 0.2,
+        "tech": 0.2,
+        "model": 0.2,
+        "team": 0.2
+      },
+      "score": 0.2367,
+      "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。"
+    },
+    {
+      "name": "第一时间你需要做这4件事",
+      "description": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+      "website": null,
+      "competitor_type": "indirect_cross",
+      "source_urls": [
+        "https://www.qizansea.com/71456.html"
+      ],
+      "source_titles": [
+        "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞"
+      ],
+      "tags": [
+        "duckduckgo",
+        "query_related"
+      ],
+      "rank_factors": {
+        "heat": 0.55,
+        "growth": 0.15,
+        "similarity": 0.191,
+        "risk": 0.1
+      },
+      "risk_factors": {
+        "capital": 0.2,
+        "tech": 0.2,
+        "model": 0.2,
+        "team": 0.2
+      },
+      "score": 0.2395,
+      "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。"
+    },
+    {
+      "name": "ShareASale 迁移到Awin 第一时间你需要做这4件事!",
+      "description": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+      "website": null,
+      "competitor_type": "indirect_cross",
+      "source_urls": [
+        "https://www.qizansea.com/71456.html"
+      ],
+      "source_titles": [
+        "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞"
+      ],
+      "tags": [
+        "duckduckgo",
+        "query_related"
+      ],
+      "rank_factors": {
+        "heat": 0.55,
+        "growth": 0.15,
+        "similarity": 0.187,
+        "risk": 0.1
+      },
+      "risk_factors": {
+        "capital": 0.2,
+        "tech": 0.2,
+        "model": 0.2,
+        "team": 0.2
+      },
+      "score": 0.2384,
+      "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。"
+    },
+    {
+      "name": "youtube.com",
+      "description": "youtube.com",
+      "website": null,
+      "competitor_type": "indirect_cross",
+      "source_urls": [
+        "https://www.youtube.com/"
+      ],
+      "source_titles": [
+        "youtube.com"
+      ],
+      "tags": [
+        "duckduckgo",
+        "query_related"
+      ],
+      "rank_factors": {
+        "heat": 0.3,
+        "growth": 0.15,
+        "similarity": 0.15,
+        "risk": 0.1
+      },
+      "risk_factors": {
+        "capital": 0.2,
+        "tech": 0.2,
+        "model": 0.2,
+        "team": 0.2
+      },
+      "score": 0.158,
+      "selection_reason": "间接/跨界竞品；综合分 0.16，主要由热度因子拉动。"
+    },
+    {
+      "name": "51视频网-第2页-热门黑料爆料资源全聚合",
+      "description": "二次元萌妹 柔柔呱 COS水神芙宁娜 粉嫩白虎被水晶假阳具猛操到高潮喷水！苗条女神HannahHays想做坏事 黑白情趣内衣撩人 极品身材被猛干内射高潮！ 51视频网官方 • 2026 年 05 月 31 日 • 今日推荐, 看片娱乐.",
+      "website": null,
+      "competitor_type": "indirect_cross",
+      "source_urls": [
+        "https://carrier.hqdzrbvnf.cc/page/2/"
+      ],
+      "source_titles": [
+        "51视频网-第2页-热门黑料爆料资源全聚合，吃瓜看片必备平台"
+      ],
+      "tags": [
+        "duckduckgo",
+        "query_related"
+      ],
+      "rank_factors": {
+        "heat": 0.3,
+        "growth": 0.15,
+        "similarity": 0.195,
+        "risk": 0.1
+      },
+      "risk_factors": {
+        "capital": 0.2,
+        "tech": 0.2,
+        "model": 0.2,
+        "team": 0.2
+      },
+      "score": 0.1706,
+      "selection_reason": "间接/跨界竞品；综合分 0.17，主要由热度因子拉动。"
+    }
+  ],
+  "analyst_mode": "llm_selection",
+  "selected_competitor_set": {
+    "total_budget": 5,
+    "scoring_profile": {
+      "purpose": "decision_support",
+      "alpha_heat": 0.35,
+      "beta_growth": 0.2,
+      "gamma_similarity": 0.35,
+      "delta_risk": 0.1,
+      "type_weights": {
+        "head_direct": 1.5,
+        "challenger": 1.0,
+        "indirect_cross": 0.8,
+        "potential_substitute": 0.5
+      }
+    },
+    "candidates": [
+      {
+        "name": "第一时间你需要做这4件事",
+        "description": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://www.qizansea.com/71456.html"
+        ],
+        "source_titles": [
+          "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.55,
+          "growth": 0.15,
+          "similarity": 0.191,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.2395,
+        "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。"
+      },
+      {
+        "name": "ShareASale 迁移到Awin 第一时间你需要做这4件事!",
+        "description": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://www.qizansea.com/71456.html"
+        ],
+        "source_titles": [
+          "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.55,
+          "growth": 0.15,
+          "similarity": 0.187,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.2384,
+        "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。"
+      },
+      {
+        "name": "ShareASale",
+        "description": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://www.qizansea.com/71456.html"
+        ],
+        "source_titles": [
+          "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.55,
+          "growth": 0.15,
+          "similarity": 0.181,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.2367,
+        "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。"
+      },
+      {
+        "name": "迁移到Awin",
+        "description": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://www.qizansea.com/71456.html"
+        ],
+        "source_titles": [
+          "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.55,
+          "growth": 0.15,
+          "similarity": 0.181,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.2367,
+        "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。"
+      },
+      {
+        "name": "都在发行什么",
+        "description": "有机构测算，1月初数字藏品全平台日均发行额仅为百万元水平，至4月底，全平台市场日均发行额已突破1000万元水平，国内数字藏品交易平台已超300家。 作为“去NFT化”的本土产物，数字藏品目前市场需求如何？",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://m.mp.oeeee.com/a/BAAFRD000020220519685303.html"
+        ],
+        "source_titles": [
+          "海外NFT缩水万倍，国内数字藏品平台激增，都在发行什么"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.3,
+          "growth": 0.15,
+          "similarity": 0.236,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.1821,
+        "selection_reason": "间接/跨界竞品；综合分 0.18，主要由热度因子拉动。"
+      },
+      {
+        "name": "海外NFT缩水万倍",
+        "description": "有机构测算，1月初数字藏品全平台日均发行额仅为百万元水平，至4月底，全平台市场日均发行额已突破1000万元水平，国内数字藏品交易平台已超300家。 作为“去NFT化”的本土产物，数字藏品目前市场需求如何？",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://m.mp.oeeee.com/a/BAAFRD000020220519685303.html"
+        ],
+        "source_titles": [
+          "海外NFT缩水万倍，国内数字藏品平台激增，都在发行什么"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.3,
+          "growth": 0.15,
+          "similarity": 0.234,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.1815,
+        "selection_reason": "间接/跨界竞品；综合分 0.18，主要由热度因子拉动。"
+      },
+      {
+        "name": "国内数字藏品平台激增",
+        "description": "有机构测算，1月初数字藏品全平台日均发行额仅为百万元水平，至4月底，全平台市场日均发行额已突破1000万元水平，国内数字藏品交易平台已超300家。 作为“去NFT化”的本土产物，数字藏品目前市场需求如何？",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://m.mp.oeeee.com/a/BAAFRD000020220519685303.html"
+        ],
+        "source_titles": [
+          "海外NFT缩水万倍，国内数字藏品平台激增，都在发行什么"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.3,
+          "growth": 0.15,
+          "similarity": 0.234,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.1815,
+        "selection_reason": "间接/跨界竞品；综合分 0.18，主要由热度因子拉动。"
+      },
+      {
+        "name": "海外NFT缩水万倍，国内数字藏品平台激增，都在发行什么",
+        "description": "有机构测算，1月初数字藏品全平台日均发行额仅为百万元水平，至4月底，全平台市场日均发行额已突破1000万元水平，国内数字藏品交易平台已超300家。 作为“去NFT化”的本土产物，数字藏品目前市场需求如何？",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://m.mp.oeeee.com/a/BAAFRD000020220519685303.html"
+        ],
+        "source_titles": [
+          "海外NFT缩水万倍，国内数字藏品平台激增，都在发行什么"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.3,
+          "growth": 0.15,
+          "similarity": 0.227,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.1796,
+        "selection_reason": "间接/跨界竞品；综合分 0.18，主要由热度因子拉动。"
+      },
+      {
+        "name": "51视频网-第2页-热门黑料爆料资源全聚合",
+        "description": "二次元萌妹 柔柔呱 COS水神芙宁娜 粉嫩白虎被水晶假阳具猛操到高潮喷水！苗条女神HannahHays想做坏事 黑白情趣内衣撩人 极品身材被猛干内射高潮！ 51视频网官方 • 2026 年 05 月 31 日 • 今日推荐, 看片娱乐.",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://carrier.hqdzrbvnf.cc/page/2/"
+        ],
+        "source_titles": [
+          "51视频网-第2页-热门黑料爆料资源全聚合，吃瓜看片必备平台"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.3,
+          "growth": 0.15,
+          "similarity": 0.195,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.1706,
+        "selection_reason": "间接/跨界竞品；综合分 0.17，主要由热度因子拉动。"
+      },
+      {
+        "name": "youtube.com",
+        "description": "youtube.com",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://www.youtube.com/"
+        ],
+        "source_titles": [
+          "youtube.com"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.3,
+          "growth": 0.15,
+          "similarity": 0.15,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.158,
+        "selection_reason": "间接/跨界竞品；综合分 0.16，主要由热度因子拉动。"
+      }
+    ],
+    "selected": [
+      {
+        "name": "第一时间你需要做这4件事",
+        "description": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://www.qizansea.com/71456.html"
+        ],
+        "source_titles": [
+          "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.55,
+          "growth": 0.15,
+          "similarity": 0.191,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.2395,
+        "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。"
+      },
+      {
+        "name": "ShareASale 迁移到Awin 第一时间你需要做这4件事!",
+        "description": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://www.qizansea.com/71456.html"
+        ],
+        "source_titles": [
+          "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.55,
+          "growth": 0.15,
+          "similarity": 0.187,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.2384,
+        "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。"
+      },
+      {
+        "name": "ShareASale",
+        "description": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://www.qizansea.com/71456.html"
+        ],
+        "source_titles": [
+          "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.55,
+          "growth": 0.15,
+          "similarity": 0.181,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.2367,
+        "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。"
+      },
+      {
+        "name": "迁移到Awin",
+        "description": "Complete your program terms：完善平台基本信息Review account users and permissions：检查账号使用用户和权限启用产品数据 Feed.",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://www.qizansea.com/71456.html"
+        ],
+        "source_titles": [
+          "ShareASale 迁移到Awin 第一时间你需要做这4件事! - 奇赞"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.55,
+          "growth": 0.15,
+          "similarity": 0.181,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.2367,
+        "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。"
+      },
+      {
+        "name": "都在发行什么",
+        "description": "有机构测算，1月初数字藏品全平台日均发行额仅为百万元水平，至4月底，全平台市场日均发行额已突破1000万元水平，国内数字藏品交易平台已超300家。 作为“去NFT化”的本土产物，数字藏品目前市场需求如何？",
+        "website": null,
+        "competitor_type": "indirect_cross",
+        "source_urls": [
+          "https://m.mp.oeeee.com/a/BAAFRD000020220519685303.html"
+        ],
+        "source_titles": [
+          "海外NFT缩水万倍，国内数字藏品平台激增，都在发行什么"
+        ],
+        "tags": [
+          "duckduckgo",
+          "query_related"
+        ],
+        "rank_factors": {
+          "heat": 0.3,
+          "growth": 0.15,
+          "similarity": 0.236,
+          "risk": 0.1
+        },
+        "risk_factors": {
+          "capital": 0.2,
+          "tech": 0.2,
+          "model": 0.2,
+          "team": 0.2
+        },
+        "score": 0.1821,
+        "selection_reason": "间接/跨界竞品；综合分 0.18，主要由热度因子拉动。"
+      }
+    ],
+    "allocation": {
+      "head_direct": 2,
+      "challenger": 2,
+      "indirect_cross": 1
+    },
+    "fallback_notes": [
+      "候选池中部分类型数量不足，剩余名额按综合得分递补到 5 个。"
+    ]
+  },
+  "phase_2_targets": {
+    "selected_competitors": [
+      {
+        "competitor_name": "第一时间你需要做这4件事",
+        "version": null,
+        "competitor_type": "indirect_cross",
+        "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。",
+        "rank_score": 0.2395
+      },
+      {
+        "competitor_name": "ShareASale 迁移到Awin 第一时间你需要做这4件事!",
+        "version": null,
+        "competitor_type": "indirect_cross",
+        "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。",
+        "rank_score": 0.2384
+      },
+      {
+        "competitor_name": "ShareASale",
+        "version": null,
+        "competitor_type": "indirect_cross",
+        "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。",
+        "rank_score": 0.2367
+      },
+      {
+        "competitor_name": "迁移到Awin",
+        "version": null,
+        "competitor_type": "indirect_cross",
+        "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。",
+        "rank_score": 0.2367
+      },
+      {
+        "competitor_name": "都在发行什么",
+        "version": null,
+        "competitor_type": "indirect_cross",
+        "selection_reason": "间接/跨界竞品；综合分 0.18，主要由热度因子拉动。",
+        "rank_score": 0.1821
+      }
+    ],
+    "selection_logic": "候选池中部分类型数量不足，剩余名额按综合得分递补到 5 个。"
+  },
+  "state_tree": {
+    "global_metadata": {
+      "status": "phase_2_targets_locked",
+      "product_name": null,
+      "author": "AI Business Analysis System",
+      "created_at": "2026-06-02T08:48:53.578568+00:00",
+      "updated_at": "2026-06-02T08:51:45.792359+00:00"
+    },
+    "phase_1_intent": {
+      "product_lifecycle": "concept",
+      "analysis_purpose": "decision_support",
+      "core_problem_to_solve": "评估是否以及如何打造一个二次元手办交易平台，为产品立项、市场进入和差异化定位提供决策依据",
+      "specific_goal": "通过竞品分析明确二次元手办交易平台的市场机会、核心用户需求、主要竞品格局、功能差异化方向与初步商业策略"
+    },
+    "phase_2_targets": {
+      "selected_competitors": [
+        {
+          "competitor_name": "第一时间你需要做这4件事",
+          "version": null,
+          "competitor_type": "indirect_cross",
+          "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。",
+          "rank_score": 0.2395
+        },
+        {
+          "competitor_name": "ShareASale 迁移到Awin 第一时间你需要做这4件事!",
+          "version": null,
+          "competitor_type": "indirect_cross",
+          "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。",
+          "rank_score": 0.2384
+        },
+        {
+          "competitor_name": "ShareASale",
+          "version": null,
+          "competitor_type": "indirect_cross",
+          "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。",
+          "rank_score": 0.2367
+        },
+        {
+          "competitor_name": "迁移到Awin",
+          "version": null,
+          "competitor_type": "indirect_cross",
+          "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。",
+          "rank_score": 0.2367
+        },
+        {
+          "competitor_name": "都在发行什么",
+          "version": null,
+          "competitor_type": "indirect_cross",
+          "selection_reason": "间接/跨界竞品；综合分 0.18，主要由热度因子拉动。",
+          "rank_score": 0.1821
+        }
+      ],
+      "selection_logic": "候选池中部分类型数量不足，剩余名额按综合得分递补到 5 个。"
+    },
+    "phase_3_strategy": {
+      "analysis_purpose": null,
+      "analysis_focus": null,
+      "analysis_dimensions": [],
+      "selected_tools": [],
+      "selected_methods": [],
+      "selected_analysis_units": [],
+      "selected_frameworks": [],
+      "selection_rationale": null,
+      "collection_channels": [],
+      "data_collection_spec": {
+        "crawler_directives": [],
+        "structured_crawler_directives": [],
+        "api_endpoints": []
+      }
+    },
+    "raw_data_sandbox": {
+      "competitor_news_feed": [],
+      "user_reviews_scrape": [],
+      "feature_ocr_texts": [],
+      "market_reports": []
+    },
+    "phase_4_synthesis": {
+      "dynamic_analyses": [],
+      "conclusion": {
+        "competitive_strategy": null,
+        "actionable_suggestions": []
+      }
+    },
+    "quality_gates": {
+      "checkpoint_1": null,
+      "checkpoint_2": null
+    },
+    "final_report_markdown": null
+  }
+}

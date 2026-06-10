@@ -1,0 +1,116 @@
+{
+  "input": "D:\\desktop_sissy\\d2l练习\\helloagent\\CompetitiveAnalysis-1.1.0\\myagent\\backend\\demos\\search_to_analyst_output.json",
+  "qa_prompt": null,
+  "llm_error": null,
+  "inspection": {
+    "inspection_status": "pass",
+    "issues_found": [],
+    "feedback_to_analyzer": null,
+    "feedback_to_planner_or_analyzer": null
+  },
+  "selected_count": 5,
+  "passed": true,
+  "checkpoint_1": {
+    "inspection_status": "pass",
+    "issues_found": [],
+    "feedback": null
+  },
+  "next_state": {
+    "state_tree": {
+      "global_metadata": {
+        "status": "phase_2_targets_locked",
+        "product_name": null,
+        "author": "AI Business Analysis System",
+        "created_at": "2026-06-02T08:48:53.578568+00:00",
+        "updated_at": "2026-06-02T08:51:45.792359+00:00"
+      },
+      "phase_1_intent": {
+        "product_lifecycle": "concept",
+        "analysis_purpose": "decision_support",
+        "core_problem_to_solve": "评估是否以及如何打造一个二次元手办交易平台，为产品立项、市场进入和差异化定位提供决策依据",
+        "specific_goal": "通过竞品分析明确二次元手办交易平台的市场机会、核心用户需求、主要竞品格局、功能差异化方向与初步商业策略"
+      },
+      "phase_2_targets": {
+        "selected_competitors": [
+          {
+            "competitor_name": "第一时间你需要做这4件事",
+            "version": null,
+            "competitor_type": "indirect_cross",
+            "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。",
+            "rank_score": 0.2395
+          },
+          {
+            "competitor_name": "ShareASale 迁移到Awin 第一时间你需要做这4件事!",
+            "version": null,
+            "competitor_type": "indirect_cross",
+            "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。",
+            "rank_score": 0.2384
+          },
+          {
+            "competitor_name": "ShareASale",
+            "version": null,
+            "competitor_type": "indirect_cross",
+            "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。",
+            "rank_score": 0.2367
+          },
+          {
+            "competitor_name": "迁移到Awin",
+            "version": null,
+            "competitor_type": "indirect_cross",
+            "selection_reason": "间接/跨界竞品；综合分 0.24，主要由热度因子拉动。",
+            "rank_score": 0.2367
+          },
+          {
+            "competitor_name": "都在发行什么",
+            "version": null,
+            "competitor_type": "indirect_cross",
+            "selection_reason": "间接/跨界竞品；综合分 0.18，主要由热度因子拉动。",
+            "rank_score": 0.1821
+          }
+        ],
+        "selection_logic": "候选池中部分类型数量不足，剩余名额按综合得分递补到 5 个。"
+      },
+      "phase_3_strategy": {
+        "analysis_purpose": null,
+        "analysis_focus": null,
+        "analysis_dimensions": [],
+        "selected_tools": [],
+        "selected_methods": [],
+        "selected_analysis_units": [],
+        "selected_frameworks": [],
+        "selection_rationale": null,
+        "collection_channels": [],
+        "data_collection_spec": {
+          "crawler_directives": [],
+          "structured_crawler_directives": [],
+          "api_endpoints": []
+        }
+      },
+      "raw_data_sandbox": {
+        "competitor_news_feed": [],
+        "user_reviews_scrape": [],
+        "feature_ocr_texts": [],
+        "market_reports": []
+      },
+      "phase_4_synthesis": {
+        "dynamic_analyses": [],
+        "conclusion": {
+          "competitive_strategy": null,
+          "actionable_suggestions": []
+        }
+      },
+      "quality_gates": {
+        "checkpoint_1": {
+          "inspection_status": "pass",
+          "issues_found": [],
+          "feedback": null
+        },
+        "checkpoint_2": null
+      },
+      "final_report_markdown": null
+    },
+    "workflow_phase": "phase_3_strategy",
+    "qa_checkpoint": null,
+    "revision_count_delta": 0
+  }
+}
